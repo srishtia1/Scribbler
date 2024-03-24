@@ -1,0 +1,37 @@
+body{
+    background-color: #ffeedd;
+}
+.postBox{
+    border: 1px solid;
+    border-radius: 6px;
+    width: calc(46% - 20px);
+    margin: 10px;
+    display: flex;
+    background-color: lightgrey;
+    position: relative;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name{
+background-color: white;
+width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox{
+    background-color: lightgrey;
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.card {
+    position: relative;
+    max-height: 80px; /* Adjust the maximum height of the content */
+    overflow: hidden;
+    padding: 10px;
+}
